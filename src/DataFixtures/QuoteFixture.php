@@ -11,7 +11,7 @@ class QuoteFixture extends Fixture
 {
     private $faker;
 
-    public function __contruct()
+    public function __construct()
     {
         $this->faker = Factory::create();
     }
